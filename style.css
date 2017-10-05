@@ -65,17 +65,21 @@ table {
     margin: 0 auto;
 }
 
-ul.menu li  {
+ul.menu li {
     text-align: center;
-    color: white;
     display: inline-block;
-    height: 60%;
+    height: 100%;
+}
+
+ul.menu li a {
+    display: block;
     margin: 0.8em;
     padding: 0.5em;
+    color: white;
     font-weight: 600;
 }
 
-ul.menu li:hover {
+ul.menu li a:hover {
     background-color: #383838;
     transition-property: background-color;
     transition-duration: 0.3s;
@@ -353,6 +357,7 @@ form {
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-delay: initial;
+    cursor: pointer;
 }
 
 .icons_social .twitter:hover {
@@ -441,7 +446,7 @@ form {
         height: 36px;
     }
 
-    ul.menu li {
+    ul.menu li a {
         padding: 0.2em;
         margin: 0.5em;
         font-weight: 300;
@@ -513,6 +518,7 @@ form {
     .form-field input {
         height: 40px;
         margin: 5px 0;
+        outline: none;
     }
     
     .message textarea {
@@ -528,6 +534,7 @@ form {
         padding: 15px 20px;
         margin: 10px 0;
         width: 100%;
+        outline: none;
     }
 
     .icons_social img {
@@ -576,7 +583,7 @@ form {
         height: 42px;
     }
 
-    ul.menu li {
+    ul.menu li a {
         padding: 0.2em;
         margin: 0.5em;
         font-weight: 300;
@@ -683,7 +690,7 @@ form {
         height: 50px;
     }
 
-    ul.menu li {
+    ul.menu li a {
         padding: 0.4em;
         margin: 0.6em;
     }
@@ -776,6 +783,10 @@ form {
         font-size: 1.5em;
         line-height: 1.75em;
     }
+
+    button {
+        font-size: 1.5em;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -807,6 +818,10 @@ form {
     .top p{
         font-size: 1.5em;
         line-height: 1.75em;
+    }
+
+    button {
+        font-size: 1.5em;
     }
 }
 
