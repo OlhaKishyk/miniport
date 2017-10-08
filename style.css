@@ -140,17 +140,18 @@ ul.menu li a:hover {
     color: #3e3e3e;
 }
 
-button {
+a.button {
     background-color: #43B3E0;
     color: white;
     font-weight: 700;
     padding: 25px 60px;
     border: 1px solid #1f6b8a; 
     border-radius: 8px;
+    text-decoration: none;
     text-shadow: -1.3px -1.3px rgb(40,40,40);
 }
 
-button:hover {
+a.button:hover {
     background-color: #64caf3;
     color: white;
     cursor: pointer;
@@ -474,7 +475,7 @@ form {
         line-height: 1.5;
     }
 
-    button {
+    a.button {
         width: 100%;
         font-size: 1em;
         padding: 15px 20px;
@@ -608,7 +609,7 @@ form {
         margin-bottom: 20px;
     }
 
-    button {
+    a.button {
         width: 100%;
         font-size: 1.2em;
         padding: 15px 50px;
@@ -784,7 +785,7 @@ form {
         line-height: 1.75em;
     }
 
-    button {
+    a.button {
         font-size: 1.5em;
     }
 }
@@ -820,7 +821,7 @@ form {
         line-height: 1.75em;
     }
 
-    button {
+    a.button {
         font-size: 1.5em;
     }
 }
